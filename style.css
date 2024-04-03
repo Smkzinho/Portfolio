@@ -1,0 +1,326 @@
+/*Fonte INTER */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/*Fonte NUNITO */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header .cbc-portfolio-dentro {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header .list-portfolio ul {
+    display: flex;
+    list-style: none;
+}
+
+header .list-portfolio li {
+    margin: 0px 30px;
+}
+
+header .list-portfolio li a{
+    text-decoration: none;
+    font-family: "Inter";
+    color: #111;
+    transition: .3s;
+    letter-spacing: 2px;
+}
+
+header .list-portfolio li a:hover {
+    color: #521cff;
+}
+
+section .inicio-portfolio-dentro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 290px;
+}
+
+section .txt-portfolio h1 {
+    font-family: "Inter";
+    font-size: 80px;
+    font-weight: 800;
+    color: #521cff;
+}
+
+section .txt-portfolio p {
+    font-family: "Inter";
+    font-size: 25px;
+    font-weight: 400;
+    color: #111;
+    margin-top: 15px;
+}
+
+section .icon-portfolio ul {
+    display: flex;
+    list-style: none;
+    margin-top: 55px;
+}
+
+section .icon-portfolio li {
+    margin: 0px 30px;
+}
+
+section .icon-portfolio li a{
+    font-size: 70px;
+    color: #521cff;
+}
+
+section .icon-portfolio li {
+    transition: .2s;
+}
+
+section .icon-portfolio li:hover {
+    transform: scale(1.04);
+}
+
+section .sobremim-portfolio-dentro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 450px;
+}
+
+section .sobremim-txt-h1 h1{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: "Inter";
+    color: #111;
+    letter-spacing: 3px;
+}
+
+section .sobremim-txt-linha {
+    margin-top: 15px;
+    height: 3px;
+    width: 50px;
+    background-color: #521cff;
+    border-radius: 25%;
+}
+
+section .sobremim-txt-p p{
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    color: #111;
+    margin-top: 20px;
+    width: 700px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+section .sobremim-habilidades-dentro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+section .sobremim-habilidades-dentro .todas-habilidades {
+    display: flex;
+}
+
+section .sobremim-habilidades-dentro .todas-habilidades div {
+    margin: 0px 10px;
+}
+
+section .sobremim-habilidades-dentro h1 {
+    font-family: "Inter";
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #521cff;
+}
+
+section .sobremim-habilidades-dentro .habilidade1 {
+    font-family: "Inter";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+section .sobremim-habilidades-dentro .habilidade1 img {
+    margin-bottom: -40px;
+    margin-top: 30px;
+    z-index: 1;
+}
+
+section .sobremim-habilidades-dentro .habilidade1 p {
+    background-color: #521cff;
+    color: #fff;
+    font-size: 18px;
+    width: 400px;
+    padding: 50px 20px 30px;
+    border: none;
+    border-radius: 30px;
+    line-height: 1.4;
+}
+
+body .navbar {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    body .navbar {
+        display: initial;
+    }
+
+    header .cbc-portfolio-dentro {
+        display: none;
+    }
+
+    body .navbar div img {
+        margin: 20px 0px 0px 50px;
+    }
+
+    body .navbar div .navbar-toggler {
+        padding: 0;
+    }
+
+    body .navbar-toggler .collapse {
+        display: none;
+    }
+
+    body .navbar div .navbar-toggler span {
+        margin-top: 20px;
+        margin-right: 50px;
+        padding: 50px;
+        border: none;
+        background-image: url(IMAGENS/pngwing.com-\(16\).png);
+    }
+
+    body .navbar-light .navbar-toggler {
+        border-color: #511cff00;
+        z-index: 3;
+    }
+
+    body #navbarNav ul li a {
+        border: none;
+        padding-left: 50px;
+        font-size: 40px;
+        background-color: #00000000;
+        color: #521cff;
+        width: 300px;
+    }
+
+    body #navbarNav ul li {
+        width: 300px;
+    }
+
+    body #navbarNav ul {
+        width: 300px;
+    }
+
+    body #navbarNav {
+        margin-top: -80px;
+        width: 300px;
+    }
+
+    .nav-link active {
+        width: 300px;
+    }
+
+    section .txt-portfolio h1 {
+        width: 610px;
+        font-family: "Inter";
+        font-size: 140px;
+        text-align: center;
+        line-height: 1.5;
+        font-weight: 800;
+        color: #521cff;
+        margin-top: -100px;
+    }
+
+    section .txt-portfolio p {
+        width: 600px;
+        font-family: "Inter";
+        font-size: 70px;
+        font-weight: 400;
+        color: #111;
+        margin-top: 30px;
+    }
+
+    section .icon-portfolio li a{
+        margin-top: -30px;
+        font-size: 150px;
+        color: #521cff;
+    }
+
+    section .sobremim-txt-h1 h1{
+        font-size: 90px;
+        text-align: center;
+        font-weight: 800;
+        font-family: "Inter";
+        color: #111;
+        letter-spacing: 3px;
+        margin-top: -200px;
+    }
+
+    section .sobremim-txt-linha {
+        margin-top: 15px;
+        height: 4px;
+        width: 160px;
+        background-color: #521cff;
+        border-radius: 25%;
+        margin-top: -70px;
+    }
+    
+    section .sobremim-txt-p p{
+        font-family: "Inter";
+        font-size: 60px;
+        font-weight: 400;
+        color: #111;
+        margin-top: 20px;
+        width: 800px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    section .sobremim-habilidades-dentro h1 {
+        font-family: "Inter";
+        font-size: 65px;
+        margin-bottom: 15px;
+        color: #521cff;
+    }
+
+    section .sobremim-habilidades-dentro .todas-habilidades {
+        font-family: "Inter";
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    section .sobremim-habilidades-dentro .habilidade1 img {
+        margin-bottom: -55px;
+        margin-top: 30px;
+        z-index: 1;
+        height: 200px;
+    }
+    
+    section .sobremim-habilidades-dentro .habilidade1 p {
+        background-color: #521cff;
+        color: #fff;
+        font-size: 50px;
+        width: 800px;
+        padding: 50px 20px 30px;
+        border: none;
+        border-radius: 30px;
+        line-height: 1.4;
+    }
+}
